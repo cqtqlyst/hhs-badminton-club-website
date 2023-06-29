@@ -45,3 +45,24 @@ body {
   font-size: 32px;
   text-align: center;
 }
+
+.events-title {
+  text-align: center;
+  color: #117b2eec;
+  font-size: 64px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.event-form {
+  background-color: #019626ec;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.event-form-container {
+  display: flex;
+}

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 
-function EventsForm() {
+function EventForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [success, setSuccess] = useState(false);
+  const [error, setError] = useState("");
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -15,7 +16,18 @@ function EventsForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Logic to handle form submission (e.g., send data to server)
+
+    // Form validation
+    if (name.trim() === "" || email.trim() === "") {
+      setError("Please enter a valid name and email.");
+      return;
+    }
+
+    setError("");
+
+    // Logic to handle form submission (e.g., save data locally)
+    // Here, you can perform any desired actions with the form data
+    // For example, you can store the form data in an array or object
 
     // Reset form fields and show success message
     setName("");
@@ -24,8 +36,10 @@ function EventsForm() {
   };
 
   return (
-    <div>
-      <h2>Register for Events</h2>
+    <div className="event-form">
+      <h2>Event Title</h2>
+      <p>Event Description</p>
+      {error && <div className="error">{error}</div>}
       {success ? (
         <div className="success">Registration successful!</div>
       ) : (
@@ -53,4 +67,4 @@ function EventsForm() {
   );
 }
 
-export default EventsForm;
+export default EventForm;
