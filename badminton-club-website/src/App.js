@@ -2,7 +2,8 @@ import "./App.css";
 import NavBar from "./components/Navbar";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import ForMembers from "./pages/ForMembers";
+import Events from "./pages/Events";
+import Footer from "./components/Footer";
 
 function App() {
   let component;
@@ -13,8 +14,8 @@ function App() {
     case "/AboutUs":
       component = <About />;
       break;
-    case "/ForMembers":
-      component = <ForMembers />;
+    case "/Events":
+      component = <Events />;
       break;
     default:
       component = <Home />;
@@ -25,7 +26,12 @@ function App() {
       <header className="App-header">
         <NavBar />
       </header>
-      <body className="App-body"> {component}</body>
+      <body className="App-body">
+        <div>{component}</div>
+        <div>
+          <Footer />
+        </div>
+      </body>
     </div>
   );
 }

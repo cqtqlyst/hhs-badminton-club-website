@@ -1,5 +1,5 @@
 function Footer() {
-  return <p>Contuct Us Here:</p>;
+  return <p>Contact Us Here:</p>;
 }
 
 export default Footer;
