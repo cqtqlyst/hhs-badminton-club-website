@@ -9,7 +9,7 @@ function NavBar() {
           <a href="/AboutUs">About Us</a>
         </li>
         <li>
-          <a href="/ForMembers">For Members</a>
+          <a href="/Events">Events</a>
         </li>
       </ul>
     </nav>

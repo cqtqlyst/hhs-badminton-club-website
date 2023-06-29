@@ -1,5 +1,13 @@
+import React from "react";
+import EventsForm from "./EventsForm";
+
 function Events() {
-  return <p>Events</p>;
+  return (
+    <div>
+      <h1>Events</h1>
+      <EventsForm />
+    </div>
+  );
 }
 
 export default Events;

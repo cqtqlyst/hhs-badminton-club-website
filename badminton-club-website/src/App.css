@@ -37,3 +37,11 @@ body {
 .site-title {
   font-size: 50px;
 }
+
+.footer {
+  background-color: #019626ec;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 32px;
+  text-align: center;
+}
