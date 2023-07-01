@@ -1,6 +1,13 @@
+import Logo from "../images/Logo2NoBackgroundCropped.png";
+
 function NavBar() {
   return (
     <nav className="nav">
+      <div>
+        <a href="/">
+          <img src={Logo} alt="Logo" className="scaled-logo" />
+        </a>
+      </div>
       <a href="/" className="site-title">
         Homestead High School Badminton Club
       </a>
