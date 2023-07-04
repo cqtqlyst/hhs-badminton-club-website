@@ -72,3 +72,53 @@ body {
 .event-form-container {
   display: flex;
 }
+
+.sections{
+  display:flex;
+  justify-content: center;
+  gap: 300px;  
+}
+
+.contact {
+  flex:1;
+
+}
+
+.links {
+  flex:1;
+
+}
+
+.credits {
+  flex:1;
+  line-height: 1.5;
+}
+
+.scaled-logo {
+  width: 50px;
+}
+
+.instagram p{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.instagram img{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.email_list{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.email_list_link{
+  color: white;
+}
+
+.email_list_link:visited{
+  color: white;
+}
