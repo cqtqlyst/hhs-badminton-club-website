@@ -122,3 +122,27 @@ body {
 .email_list_link:visited{
   color: white;
 }
+
+.text {
+  width: 500px;
+  font-size: 30px;
+}
+
+.text p {
+  display: inline-block;
+}
+
+.text img {
+  display: inline-block;
+}
+
+.info {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  font-size: 32px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
