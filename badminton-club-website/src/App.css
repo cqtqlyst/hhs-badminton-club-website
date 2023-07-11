@@ -15,6 +15,7 @@ body {
   padding: 0rem;
   font-size: 32px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 0px;
 }
 
 .nav ul {
@@ -35,19 +36,26 @@ body {
   background-color: #50c36dec;
 }
 
+.nav .combined-logo-and-title {
+  display: flex;
+  list-style: none;
+}
+
 .nav .scaled-logo {
   width: 128px;
   height: 128px;
   margin: 0;
   padding: 0.5rem;
-  margin-right: 1rem;
+  margin-right: 0px;
 }
 
-.site-title {
+.nav .site-title {
   padding-right: 2rem;
   padding-top: 2rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0rem;
+  margin-bottom: 25px;
   font-size: 50px;
+  margin-left: 25px;
 }
 
 .footer {
@@ -72,7 +80,7 @@ body {
   font-size: 16px;
   text-align: center;
   margin: 5px;
-  padding: 5px;
+  padding: 25px;
 }
 
 .event-form-container {
