@@ -5,15 +5,15 @@ function Footer() {
     <div className="footer">
       <div class = "sections">
         <div class = "contact">
-          <p>Contact</p>{" "}
+          <div class = "header1">Contact</div>
           <p>hhsbadminton@gmail.com</p>
           <p>OR</p>
           <p>you can email any one of our officers!</p>
         </div>
         <div class = "links">
-          <p>Links</p>{" "}
+          <div class = "header2">Links</div>
           <div class = "instagram">
-            <p>Follow our Instagram!</p>
+            <div>Follow our Instagram!</div>
             <a href = "https://www.instagram.com/hhsbadmintonclub/"target="_blank"> 
               <img src={InstLogo} alt="Logo" className="scaled-logo" />
             </a>
@@ -26,7 +26,7 @@ function Footer() {
           </div>
         </div>
         <div class = "credits">
-          <p>Credits</p>{" "}
+          <div class = "header3">Credits</div>{" "}
           <p>This website was made by <br>
           </br>Aayush Gaywala and Siddharth Balaji.<br>
           </br> You can read more about them above.</p>

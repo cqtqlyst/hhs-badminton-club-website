@@ -95,9 +95,43 @@ body {
 
 .contact {
   flex:1;
-
 }
 
+.header1 {
+  margin-top: 30px;
+  font-size: 30px;
+}
+.contact p {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.header2 {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.header3 {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.credits p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.instagram{
+  margin-top: 18px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.email_list {
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 0px;
+}
 .links {
   flex:1;
 
@@ -109,7 +143,9 @@ body {
 }
 
 .scaled-logo {
-  width: 50px;
+  margin-top: 17px;
+  width: 30px;
+  display: inline-block;
 }
 
 .instagram p{
@@ -124,9 +160,9 @@ body {
 }
 
 .email_list{
-  display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
+  margin-top: 10px;
 }
 
 .email_list_link{
@@ -137,26 +173,17 @@ body {
   color: white;
 }
 
-.text {
-  width: 500px;
-  font-size: 30px;
-}
-
-.text p {
-  display: inline-block;
-}
-
-.text img {
-  display: inline-block;
-}
-
 .info {
   background-color: blue;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem;
-  font-size: 32px;
+  width: 100vw;
+  height: 50vh;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  padding-top: 45px;
 }
